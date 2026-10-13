@@ -1,5 +1,38 @@
 const projects = [
   {
+    title: 'Expense Tracker',
+    category: 'Full-Stack Python Web Application',
+    description:
+      'A personal expense management web application built with Flask and PostgreSQL. It allows users to record and manage expenses, analyze spending patterns, visualize financial data, and export filtered expense records to CSV.',
+    problem:
+      'Tracking personal expenses manually can make it difficult to understand spending habits, compare expenses across months, and identify where money is going.',
+    solution:
+      'I built a web application using Flask and PostgreSQL to manage expense records and summarize spending. The application includes category and monthly filters, interactive charts, server-side validation, and CSV export.',
+    technologies: [
+      'Python',
+      'Flask',
+      'PostgreSQL',
+      'Neon',
+      'Jinja2',
+      'CSS',
+      'Chart.js',
+      'Psycopg',
+      'Vercel',
+    ],
+    features: [
+      'Add, edit, and delete expenses',
+      'Running expense total',
+      'Spending breakdown by category',
+      'Monthly and category filters',
+      'Interactive doughnut chart',
+      'Monthly spending bar chart',
+      'Export filtered records to CSV',
+      'Server-side validation and flash messages',
+    ],
+    github: 'https://github.com/akinkunmiak123/expense-tracker',
+    live: 'https://expense-tracker-puce-three-90.vercel.app/',
+  },
+  {
     title: 'Appointment Booking Web Application',
     category: 'Full-Stack Web Application',
     description:
